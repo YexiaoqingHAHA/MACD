@@ -34,12 +34,13 @@ MACD_python 项目程序文件说明
     - return.csv
 * relearning_data
 
-记录再学习过程中参数的参数
+  记录再学习过程中参数的参数
   + stockTrainInfo.csv :记录股票的训练进度
   + parameter_info: 单支股票的训练结果
+  
 * logs
 
-日志文件
+  日志文件
 
 ## 功能说明
 * 实时训练（每周股票推荐）： py generatedStockRecommendation.py
