@@ -45,6 +45,7 @@ MACD_python 项目程序文件说明
 ## 功能说明
 * 版本选择：
   + 参数配置：config.ini---->MainInfo：
+  
     MACDName ： 目前有三个版本（old_MACD, new_MACD, old_MACD_trailing_stop_profit）
 * 实时训练（每周股票推荐）： 
   + 参数配置：config.ini---->TrainInfo
