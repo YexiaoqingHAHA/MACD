@@ -43,8 +43,15 @@ MACD_python 项目程序文件说明
   日志文件
 
 ## 功能说明
-* 实时训练（每周股票推荐）： py generatedStockRecommendation.py
-* 实时信号: py realSignal.py
+* 实时训练（每周股票推荐）： 
+  + 参数配置：config.ini---->TrainInfo
+    - trainInfoFile=real_data\train_period_index.xlsx : train_period_index.xlsx文件中记录了股票推荐的日期信息，根据这个进行自动训练（需要手动对文件进行管理）
+  + 程序执行：py generatedStockRecommendation.py
+* 实时信号: 
+  + 参数配置：config.ini---->TrainInfo
+    - stockStrategyNum
+    - step
+  + 程序执行：py realSignal.py
 * 历史回测：py backtest.py
 * 参数再学习：py relearning.py
 
